@@ -2,9 +2,9 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://0x141026.github.io/
 date_format: "ordinal"
-title: 码志
+title: Aaron's Coding Blog
 subtitle: "公众号：Aaron的闲情雅致"
 description: "Aaron个人博客，公众号：Aaron的闲情雅致"
 keywords: Aaron, Iris, 编程， 博客
