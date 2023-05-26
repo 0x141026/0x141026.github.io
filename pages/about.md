@@ -2,17 +2,15 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: Aaron, Iris
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+汝未见花时，汝心与花一时俱灭； 汝见花时，汝心与花都一时明朗起来。
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+我不和谁争 和谁争我都不屑 我热爱自然 其次就是艺术创造。
 
 ## 联系
 
