@@ -20,15 +20,12 @@ mindmap2: false
 
 ---
 # 1
-这是一条引用^[https://lolitasian.blog.csdn.net/article/details/121656279]
-这是一条引用^[[https://lolitasian.blog.csdn.net/article/details/121656279](https://lolitasian.blog.csdn.net/article/details/121656279)] 
-这是一条引用^[<br>![在这里插入图片描述](https://img-blog.csdnimg.cn/d74d20cb0f7f4be8831cb43ceea8ed7d.png)]
-
+这是一条引用^[https://niejianzhou.cn]
 ---
 
 # 2
 这是一条引用[^1]
-[^1]:https://niejianzhou.cn
+[^1]:https://baidu.com
 
 ---
 
