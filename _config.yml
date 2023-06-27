@@ -2,8 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-# url: https://0x141026.github.io/
-url: https://niejianzhou.cn
+url: https://0x141026.github.io/
+# url: https://niejianzhou.cn
 date_format: "ordinal"
 title: Aaron's Coding Blog
 subtitle: "公众号：Aaron的闲情雅致"
