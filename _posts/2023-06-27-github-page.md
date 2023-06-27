@@ -17,4 +17,4 @@ mindmap2: false
 2. originsRegex指的是从哪个域名[^njz]请求过来，比如绑定的域名是a.b.org,那么_config.yml[^1]文件中的url的值必须也是a.b.org
 
 [^1]:Jekyll的配置文件,{{}}是Jekyll的语法。
-[^njz]:https://niejianzhou.cn
+[^njz]:[niejianzhou.cn](https://niejianzhou.cn)
