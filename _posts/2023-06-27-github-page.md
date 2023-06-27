@@ -19,13 +19,10 @@ mindmap2: false
 [^2]:niejianzhou.cn
 
 ---
-# 1
-这是一条引用^[https://niejianzhou.cn]
----
 
 # 2
-这是一条引用[^1]
-[^1]:https://baidu.com
+这是一条引用[^baidu]
+[^baidu]:https://baidu.com
 
 ---
 
