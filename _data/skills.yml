@@ -1,0 +1,14 @@
+- name: Software Engineer Keywords
+  keywords:
+      - Java
+      - html/css/js
+      - Python
+      - Design Patterns
+
+- name: Database  Keywords
+  keywords:
+      - Oracle
+      - Mysql
+      - MS SQL
+      - h2
+      - redis
