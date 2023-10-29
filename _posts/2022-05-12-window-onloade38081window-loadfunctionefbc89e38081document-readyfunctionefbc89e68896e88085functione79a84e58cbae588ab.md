@@ -4,7 +4,7 @@ title: 'window.onload、$(window).load(function(){}）、[$(document).ready(func
 date: '2022-05-12T12:22:45+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=324'
+guid: 'http://185.199.109.153/?p=324'
 permalink: /2022/05/12/window-onload%e3%80%81window-loadfunction%ef%bc%89%e3%80%81document-readyfunction%ef%bc%89%e6%88%96%e8%80%85function%e7%9a%84%e5%8c%ba%e5%88%ab/
 views:
     - '389'

@@ -4,7 +4,7 @@ title: 'javascript中的立即执行函数(function(){})()'
 date: '2020-05-20T20:58:24+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=258'
+guid: 'http://185.199.109.153/?p=258'
 permalink: /2020/05/20/javascript%e4%b8%ad%e7%9a%84%e7%ab%8b%e5%8d%b3%e6%89%a7%e8%a1%8c%e5%87%bd%e6%95%b0function/
 views:
     - '135'

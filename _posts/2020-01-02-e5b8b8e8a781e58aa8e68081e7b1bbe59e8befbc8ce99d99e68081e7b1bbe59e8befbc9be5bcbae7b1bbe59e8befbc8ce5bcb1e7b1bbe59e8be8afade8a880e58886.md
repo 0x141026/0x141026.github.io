@@ -4,7 +4,7 @@ title: 动态类型，静态类型；强类型，弱类型语言
 date: '2020-01-02T17:52:08+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=242'
+guid: 'http://185.199.109.153/?p=242'
 permalink: /2020/01/02/%e5%b8%b8%e8%a7%81%e5%8a%a8%e6%80%81%e7%b1%bb%e5%9e%8b%ef%bc%8c%e9%9d%99%e6%80%81%e7%b1%bb%e5%9e%8b%ef%bc%9b%e5%bc%ba%e7%b1%bb%e5%9e%8b%ef%bc%8c%e5%bc%b1%e7%b1%bb%e5%9e%8b%e8%af%ad%e8%a8%80%e5%88%86/
 seo_description_value:
     - 常见动态类型，静态类型；强类型，弱类型语言分布图

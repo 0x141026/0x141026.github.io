@@ -4,7 +4,7 @@ title: 'java编译过程中出现了Exception in thread “main" java.lang.Unsup
 date: '2021-02-16T15:55:29+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=230'
+guid: 'http://185.199.109.153/?p=230'
 permalink: /2021/02/16/java%e7%bc%96%e8%af%91%e8%bf%87%e7%a8%8b%e4%b8%ad%e5%87%ba%e7%8e%b0%e4%ba%86exception-in-thread-main-java-lang-unsupportedclassversionerror/
 views:
     - '166'

@@ -4,7 +4,7 @@ title: 在centos后台运行python程序（nohup命令）
 date: '2021-03-21T23:52:55+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=248'
+guid: 'http://185.199.109.153/?p=248'
 permalink: /2021/03/21/%e5%9c%a8centos%e5%90%8e%e5%8f%b0%e8%bf%90%e8%a1%8cpython%e7%a8%8b%e5%ba%8f%ef%bc%88nohup%e5%91%bd%e4%bb%a4%ef%bc%89/
 views:
     - '266'

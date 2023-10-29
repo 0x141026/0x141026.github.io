@@ -4,7 +4,7 @@ title: 'Oracle的 for update'
 date: '2019-11-25T16:48:11+08:00'
 author: Aaron
 layout: post
-guid: 'http://47.101.191.3/?p=226'
+guid: 'http://185.199.109.153/?p=226'
 permalink: /2019/11/25/oracle%e7%9a%84-for-update/
 seo_description_value:
     - 'Oracle的 for update'
