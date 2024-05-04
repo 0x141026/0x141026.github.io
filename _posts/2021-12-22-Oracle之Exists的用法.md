@@ -45,7 +45,7 @@ select \* from emp\_tax;
 
 1\. 内表必须要和外表连接。
 
-```
+```sql
 SELECT *
 FROM emp_tax o
 WHERE EXISTS (

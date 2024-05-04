@@ -24,13 +24,13 @@ tags:
 
 2.如果上述出现问题，先新建一个数据库，然后则执行如下代码还原（修改红色部分为bak文件在PC上的位置）：
 
-<div class="cnblogs_code">```
+```
 restore database htzjpic from disk='E:\htzjpic.bak'with RECOVERY,REPLACE, CONTINUE_AFTER_ERROR,
 move 'htzjpic' to 'E:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\htzjpic.mdf',
 move 'htzjpic_log' to 'E:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\htzjpic_log.ldf'
 ```
 
-</div>## **二、低版本还原到高版本**
+## **二、低版本还原到高版本**
 
 直接将低版本的数据库bak文件还原到高版本的数据库中
 
@@ -46,8 +46,8 @@ move 'htzjpic_log' to 'E:\Program Files (x86)\Microsoft SQL Server\MSSQL12.MSSQL
 
 ## PS：从备份文件bak中识别SQL Server版本的sql语句
 
-<div class="cnblogs_code">```
-1 RESTORE HEADERONLY FROM DISK = N'D:\SQLSERVER_DATA\备份文件\XXXX.bak'
+```
+RESTORE HEADERONLY FROM DISK = N'D:\SQLSERVER_DATA\备份文件\XXXX.bak'
 ```
 
-</div>参考：<https://www.cnblogs.com/Rawls/p/10726010.html>
+参考：<https://www.cnblogs.com/Rawls/p/10726010.html>

@@ -23,13 +23,13 @@ tags:
 
 关键的命令：`nohup`
 
-## <a name="t0"></a><a name="t0"></a>\*基本用法：
+## 基本用法：
 
 进入要运行的py文件目录前
 
 nohup python -u test.py &gt; test.log 2&gt;&amp;1 &amp;
 
-## <a name="t2"></a><a name="t2"></a>\*含义解释：
+## 含义解释：
 
 nohup 不挂起的意思
 
@@ -45,25 +45,25 @@ python test.py python运行test.py文件
 
 &amp; 最后一个&amp; ，代表该命令在后台执行
 
-## <a name="t4"></a><a name="t4"></a>\*命令运行后会有提示，示例：
+## 命令运行后会有提示，示例：
 
 \[1\] 2880
 
 代表进程2880中运行。
 
-## <a name="t5"></a><a name="t5"></a>\*查看nohub命令下运行的所有后台进程：
+## 查看nohub命令下运行的所有后台进程：
 
 jobs
 
-## <a name="t7"></a><a name="t7"></a>\*查看后台运行的所有进程：
+## 查看后台运行的所有进程：
 
 ps -aux
 
-## <a name="t8"></a><a name="t8"></a>\*查看后台运行的所有python 进程：
+## 查看后台运行的所有python 进程：
 
 ps aux |grep python或者ps -ef | grep python
 
-## <a name="t10"></a><a name="t10"></a>\*删除进程
+## 删除进程
 
 kill -9 \[进程id\]
 

@@ -22,14 +22,9 @@ tags:
 
 现在简单的回顾switch与if语句的基本构造，再深入了解它们的使用区别。
 
-首先回顾下switch与if的基本结构
+## 首先回顾下switch与if的基本结构
 
-## <div class="alert alert-info">switch</div>
-
-说得再多，不如直接上代码
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```text
 switch(choose){    
     case 1:语句1;break;    
     case 2:语句2;break;    
@@ -37,9 +32,7 @@ switch(choose){
     default:默认语句;
 }
 ```
-```
-
-</div>上述是一个简单的switch语句的例子，根据choose的取值不同，选择不同的case语句执行；如果没有匹配任何case值，则执行默认语句。
+上述是一个简单的switch语句的例子，根据choose的取值不同，选择不同的case语句执行；如果没有匹配任何case值，则执行默认语句。
 
 注意事项：  
 1.choose的数据类型有一定要求：可以为byte、short、char、int、String、枚举，当然不同的JDK版本对switch影响不同。  
@@ -48,27 +41,17 @@ switch(choose){
 
 以上是switch比较重要的知识点，做一个简单的回顾。
 
-接下来回顾下if语句
-
-## <div class="alert alert-info">if语句</div>
-
-if语句的样式就比较多了。  
-if语句分为三种：简单if语句、双分支if语句、多分支if语句
+## 接下来回顾下if语句,if语句的样式就比较多了。  if语句分为三种：简单if语句、双分支if语句、多分支if语句
 
 ### 简单if语句
-
 在代码中展示为：
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```
 if(条件){
     语句1
 }
 语句2
 ```
-```
-
-</div>大家可以直接从代码中看出来，简单if语句，也就只有if的存在，作为一个简单的判断，不管语句1执不执行，并不妨碍下方语句2的执行。
+大家可以直接从代码中看出来，简单if语句，也就只有if的存在，作为一个简单的判断，不管语句1执不执行，并不妨碍下方语句2的执行。
 
 回顾了简单的if语句，接下来再说说双分支if语句
 
@@ -78,8 +61,7 @@ if(条件){
 是在简单if语句的基础上添加对立的条件else语句  
 比如下面的代码：
 
-<div class="highlight">```
-<pre class="codeblock">```text
+```text
 if(条件1){
     语句1
 }else{
@@ -87,18 +69,14 @@ if(条件1){
 }
 语句3
 ```
-```
-
-</div>通过条件1来判断是否需要执行语句1，如果条件1为真，则直接执行语句1；反之为假，则执行语句2。但是不管执行语句1或者语句2，语句3都会执行
+通过条件1来判断是否需要执行语句1，如果条件1为真，则直接执行语句1；反之为假，则执行语句2。但是不管执行语句1或者语句2，语句3都会执行
 
 双分支if语句中需要时刻了解其else的取值范围。
 
 ### 多分支if语句
 
 什么是多分支if语句呢？就是在if…else的基础上，再加入更多的条件进行选择。
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```
 if(条件1){
     语句1
 }else if(条件2){
@@ -108,12 +86,8 @@ if(条件1){
 }
 语句4
 ```
+由于出现了一个else if，则每个判断的取值发生了变化，但在多分支if语句中，我们虽然可以像下面的代码一样添加更多的else if条件，但是选中的语句只会有一个，也就是说语句1、2、3只会有一个执行，谁先执行后面的就直接无效了，但并不影响语句4的执行。
 ```
-
-</div>由于出现了一个else if，则每个判断的取值发生了变化，但在多分支if语句中，我们虽然可以像下面的代码一样添加更多的else if条件，但是选中的语句只会有一个，也就是说语句1、2、3只会有一个执行，谁先执行后面的就直接无效了，但并不影响语句4的执行。
-
-<div class="highlight">```
-<pre class="codeblock">```text
 if(条件1){
     语句1
 }else if(条件2){
@@ -125,18 +99,14 @@ if(条件1){
 }
 语句5
 ```
-```
-
-</div>很多同学都已经掌握了上述的内容
+很多同学都已经掌握了上述的内容
 
 接下来，来看一个不一样的if语句
 
 ### 双if语句
 
 什么是双if语句呢？
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```
 if(条件1){//第一个if语句
     语句1
 }if(条件2){//第二个if语句
@@ -144,9 +114,7 @@ if(条件1){//第一个if语句
 }
 语句3
 ```
-```
-
-</div>这个代码有点奇怪！一个代码中竟然连续出现多个if语句,那问题来了，到底执行哪一个if语句呢？答案是：都可能会执行，每个if语句间没有影响，不管是几个if语句，只要满足条件都会运行。
+这个代码有点奇怪！一个代码中竟然连续出现多个if语句,那问题来了，到底执行哪一个if语句呢？答案是：都可能会执行，每个if语句间没有影响，不管是几个if语句，只要满足条件都会运行。
 
 上述代码，条件1和条件2没有任何的关系，只要条件1满足就执行语句1，只要条件2满足就执行语句2，两者可能都会执行，当然，也可能都不执行；但请注意语句3一定会执行。
 
@@ -154,7 +122,7 @@ if(条件1){//第一个if语句
 
 接下来进入我们的正题
 
-## <div class="alert alert-info">switch和if else语句到底用谁</div>
+## switch和if else语句到底用谁
 
 面对switch于if else语句进行了基本结构的回顾。
 
@@ -169,9 +137,7 @@ if else：每个执行的语句前都会有一个条件，这个条件可以是�
 例子1：将一个班级按照 0-59：E级 60-69：D级 70—79：C级 80—89：B级 90-100：A级的要求对输入的成绩进行等级评判
 
 若使用if else语句
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```
 Scanner sc = new Scanner(System.in);
 int x = sc.nextInt();//前两步骤是在获得输入值
 if(x>=0&&x<60){//注意，区间范围之间需要使用&&/||或者&/|，来进行区间划分，而0<=x<60这种写法是禁止的
@@ -188,12 +154,8 @@ if(x>=0&&x<60){//注意，区间范围之间需要使用&&/||或者&/|，来进�
     System.out.println("输入有误")；
 }
 ```
+而使用switch来完成该代码呢？
 ```
-
-</div>而使用switch来完成该代码呢？
-
-<div class="highlight">```
-<pre class="codeblock">```text
 Scanner sc = new Scanner(System.in);
 int x = sc.nextInt();//前两步骤是在获得输入值
 switch(x/10){//由于0-100之间有100个数据，用case来一个一个进行划分很麻烦，
@@ -217,9 +179,7 @@ switch(x/10){//由于0-100之间有100个数据，用case来一个一个进行�
   default:System.out.println("输入有误")；
 }
 ```
-```
-
-</div>从上面可以看出，if else语句在这道题里用起来感觉挺顺手的，而switch呢？就要复杂得多了。
+从上面可以看出，if else语句在这道题里用起来感觉挺顺手的，而switch呢？就要复杂得多了。
 
 我们再来看一个例子
 
@@ -232,9 +192,7 @@ switch(x/10){//由于0-100之间有100个数据，用case来一个一个进行�
 当然，这道题更多出现在游戏的内容中
 
 那如果我们使用if else语句该如何书写呢？
-
-<div class="highlight">```
-<pre class="codeblock">```text
+```
 Scanner sc = new Scanner(System.in);
 int x = sc.nextInt();//前两步骤是在获得输入值
 if(x==1){
@@ -249,12 +207,8 @@ if(x==1){
     System.out.println("输入有误")；
 }
 ```
+而使用switch语句呢？
 ```
-
-</div>而使用switch语句呢？
-
-<div class="highlight">```
-<pre class="codeblock">```text
 Scanner sc = new Scanner(System.in);
 int x = sc.nextInt();//前两步骤是在获得输入值
 switch(x){    
@@ -265,9 +219,7 @@ switch(x){
     default:System.out.println("输入有误")；
 }
 ```
-```
-
-</div>从这个例子可以看出：switch写起来要比if else更为简洁，并且使用x==0这些方式写出来，难免感觉怪怪的。
+从这个例子可以看出：switch写起来要比if else更为简洁，并且使用x==0这些方式写出来，难免感觉怪怪的。
 
 综上两道题可以看出：switch更适用于有确切值的选择，而if else更适合用于进行范围判断的内容。
 
@@ -275,7 +227,7 @@ switch(x){
 
 当然我们的讨论还没有结束，上面只是从例子说明了switch与if else的区别，接下来我们从它们的执行效率上来进行讲解。
 
-## <div class="alert alert-info">switch与if else的执行效率</div>
+## switch与if else的执行效率
 
 单从JVM的执行效率上讲的话,switch的执行效率要高于if语句：
 
@@ -289,7 +241,7 @@ if else语句需要一条一条的去进行取值范围的判断，直到找到�
 
 所以，单从其运行的效率来看，switch语句要更胜一筹。
 
-## <div class="alert alert-success">总结</div>
+## 总结
 
 1.switch语句由于它独特的case值判断方式，使其执行效率更高，而if else语句呢，则由于判断机制，导致效率稍慢。
 
