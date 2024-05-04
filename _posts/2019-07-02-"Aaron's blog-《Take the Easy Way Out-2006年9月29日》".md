@@ -1,11 +1,11 @@
 ---
 id: 144
-title: 'Aaron''s blog《Take the Easy Way Out-2006年9月29日》'
+title: "Aaron's blog-《Take the Easy Way Out-2006年9月29日》"
 date: '2019-07-02T20:26:57+08:00'
 author: Aaron
 layout: post
 guid: 'https://lntrospetive.wordpress.com/?p=144'
-permalink: /2019/07/02/aarons-blog%e3%80%8atake-the-easy-way-out-2006%e5%b9%b49%e6%9c%8829%e6%97%a5%e3%80%8b/
+permalink: /2019/07/02/aarons-blog
 timeline_notification:
     - '1562070421'
 views:
